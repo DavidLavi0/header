@@ -1,0 +1,36 @@
+.odkazy{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border:  solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+h3{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
